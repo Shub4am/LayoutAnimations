@@ -17,7 +17,7 @@ import { AntDesign } from "@expo/vector-icons";
 import { Ionicons } from "@expo/vector-icons";
 
 const LIST_ITEM_COLOR = "#7217de";
-//#7217de;
+
 interface Item {
   id: number;
 }
@@ -47,7 +47,6 @@ export default function App() {
   }, []);
 
   const handlePress = () => {
-    // loadout
     Alert.alert("Layout Animation", "Loading");
   };
 
